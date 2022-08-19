@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyDEB510azYUORC-A-C-6uLhYR8_iaf69hI",
+  authDomain: "reddit-clone-375d8.firebaseapp.com",
+  projectId: "reddit-clone-375d8",
+  storageBucket: "reddit-clone-375d8.appspot.com",
+  messagingSenderId: "914147915751",
+  appId: "1:914147915751:web:a96ab439b670d1ca96ef42"
 };
 
 // Initialize Firebase for SSR
